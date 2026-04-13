@@ -1,0 +1,14 @@
+results/
+objects/
+logs/
+reports/
+run_logs/
+build/
+*.odb
+*.out
+*.tmp
+.nfs*
+.DS_Store
+__pycache__/
+*.pyc
+nohup.out
