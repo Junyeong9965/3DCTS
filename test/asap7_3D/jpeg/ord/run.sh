@@ -7,6 +7,8 @@ done
 source "${FLOW_ROOT}/env.sh"
 source "${FLOW_ROOT}/configs/cts_params.env"
 
+export CTS_NO_INSERTION_DELAY=1          # LatencyBalancer OFF
+
 export DESIGN_NICKNAME="jpeg"
 export PLATFORM="asap7_3D"
 

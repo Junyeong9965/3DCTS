@@ -8,8 +8,6 @@ source "${FLOW_ROOT}/env.sh"
 source "${FLOW_ROOT}/configs/cts_params.env"
 
 export CTS_NO_INSERTION_DELAY=1          # LatencyBalancer OFF (133 macros)
-export CTS_FORCE_MACRO_REG_SPLIT=1       # Force macro/register split
-export CTS_FORCE_BOTH_TIER_BUF=1         # Both-tier buf_list (macros on both tiers)
 
 export DESIGN_NICKNAME="ariane133"
 export PLATFORM="asap7_3D"
